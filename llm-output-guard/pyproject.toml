@@ -1,0 +1,10 @@
+[project]
+name = "llm-output-guard"
+version = "0.1.0"
+description = "Validate LLM outputs before they reach users: JSON extraction and schema checks, PII detection (incl. Kenyan phone numbers) and format rules."
+requires-python = ">=3.10"
+authors = [{name = "Martin Njiru"}]
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["outguard"]

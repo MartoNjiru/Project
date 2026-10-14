@@ -1,0 +1,4 @@
+{"type": "object", "required": ["name", "sentiment", "score"],
+ "properties": {"name": {"type": "string", "minLength": 1},
+                "sentiment": {"type": "string", "enum": ["positive", "negative", "neutral"]},
+                "score": {"type": "number", "minimum": 0, "maximum": 1}}}

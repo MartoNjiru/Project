@@ -1,0 +1,3 @@
+{"id": "q1", "reference": "Egerton University is a public university in Njoro, Nakuru County, Kenya. It was founded in 1939 as an agricultural school.", "answer": "Egerton University is a public university located in Njoro, Kenya. It was founded in 1939 as an agricultural school."}
+{"id": "q2", "reference": "Lake Nakuru National Park covers about 188 square kilometres and is known for flamingos and rhinos.", "answer": "Lake Nakuru National Park covers about 400 square kilometres. It is famous for flamingos and Bengal tigers."}
+{"id": "q3", "reference": "Python 3.12 was released in October 2023. It improved error messages and f-string parsing.", "answer": "Python 3.12 came out in October 2023 with better error messages. It also removed the GIL by default."}

@@ -1,0 +1,10 @@
+[project]
+name = "rag-eval-kit"
+version = "0.1.0"
+description = "Evaluate retrieval-augmented generation: precision/recall@k, MRR, nDCG, context relevance and answer groundedness."
+requires-python = ">=3.10"
+authors = [{name = "Martin Njiru"}]
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["rageval"]

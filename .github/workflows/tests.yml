@@ -1,0 +1,17 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [llm-hallucination-checker, llm-response-ranker, llm-redteam-suite, rag-eval-kit, llm-output-guard, prompt-regression-tester]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run tests
+        working-directory: ${{ matrix.project }}
+        run: python -m unittest discover -s tests -v

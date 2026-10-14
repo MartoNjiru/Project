@@ -1,0 +1,10 @@
+[project]
+name = "llm-hallucination-checker"
+version = "0.1.0"
+description = "Dependency-free Python toolkit that splits LLM answers into claims and flags unsupported or fabricated facts against a reference."
+requires-python = ">=3.10"
+authors = [{name = "Martin Njiru"}]
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["hallucheck"]

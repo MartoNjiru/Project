@@ -1,0 +1,9 @@
+{
+  "template": "{input}",
+  "cases": [
+    {"id": "capital", "input": "What is the capital of Kenya? Answer in one word.", "assert": [{"contains": "Nairobi"}, {"max_words": 3}]},
+    {"id": "translate", "input": "Translate to Swahili: thank you very much", "assert": [{"contains": "asante sana"}]},
+    {"id": "json", "input": "Return JSON with keys city and country for Nakuru.", "assert": [{"is_json": true}, {"regex": "\"country\":\\s*\"Kenya\""}]},
+    {"id": "sentiment", "input": "Label the sentiment (positive/negative/neutral): I love this phone", "assert": [{"one_of": ["positive", "negative", "neutral"]}, {"contains": "positive"}]}
+  ]
+}

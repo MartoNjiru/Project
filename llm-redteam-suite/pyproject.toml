@@ -1,0 +1,10 @@
+[project]
+name = "llm-redteam-suite"
+version = "0.1.0"
+description = "Small Python harness for red-teaming chat models: attack templates, refusal and leak detectors, and attack-success-rate reports."
+requires-python = ">=3.10"
+authors = [{name = "Martin Njiru"}]
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["redteam"]

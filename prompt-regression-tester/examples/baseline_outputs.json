@@ -1,0 +1,6 @@
+{
+  "What is the capital of Kenya? Answer in one word.": "Nairobi",
+  "Translate to Swahili: thank you very much": "Asante sana",
+  "Return JSON with keys city and country for Nakuru.": "{\"city\": \"Nakuru\", \"country\": \"Kenya\"}",
+  "Label the sentiment (positive/negative/neutral): I love this phone": "positive"
+}

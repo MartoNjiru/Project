@@ -1,0 +1,10 @@
+[project]
+name = "llm-response-ranker"
+version = "0.1.0"
+description = "Pairwise preference evaluation for LLM responses: rubric scoring, Elo and Bradley-Terry leaderboards, and inter-annotator agreement."
+requires-python = ">=3.10"
+authors = [{name = "Martin Njiru"}]
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["ranker"]
